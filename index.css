@@ -1,0 +1,116 @@
+body
+{
+    background: url(background.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+#all
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header
+{
+    display: flex;
+    height: 100px;
+}
+
+#logo
+{
+    width: 94px;
+}
+
+nav
+{
+    width: 100%;
+    font-size: xx-large;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    display: flex;
+}
+
+li
+{
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+main
+{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    border-radius: 25px;
+    margin: auto;
+    color: white;
+}
+
+main p
+{
+    margin: 0;
+}
+
+a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover
+{
+    color: burlywood;
+}
+
+marquee
+{
+    background-color: rgba(255, 255, 255, .5);
+    height: 200px;
+    border-radius: 25px;
+}
+
+blockquote
+{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+footer
+{
+    display: flex;
+}
+
+footer p
+{
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: xx-large;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+footer span
+{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
